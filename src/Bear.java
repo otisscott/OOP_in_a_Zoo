@@ -1,15 +1,15 @@
-/*public class Tiger {
+/* public class Bear {
     // put your instance variables here!
     String name = "";
     String favoriteFood = "";
 
-    public Tiger(String name) {
+    public Bear(String name) {
         this.name = name;
-        this.favoriteFood = "meat";
+        this.favoriteFood = "fish";
     }
 
     public void sleep() {
-        System.out.println(name + " sleeps for 8 hours");
+        System.out.println(name + " hibernates for 4 months");
     }
 
     public void eat(String food) {
@@ -25,19 +25,25 @@
     public static void main(String[] args) {
         //either make a new instance of a zoo
         //to call the non-static sleep method....
-        Tiger tiger = new Tiger("Tiger");
-        tiger.eat("meat");
-        tiger.eat("kibble");
+        Bear bear = new Bear("Bear");
+        bear.eat("fish");
+        bear.eat("kibble");
 
     }
 
 } */
-public class Tiger extends Animal {
 
-    public Tiger(String name) {
-        super(name, "meat");
+public class Bear extends Animal {
+    // complete the Bear class here, using the completed Tiger class as an example
+    public Bear(String name) {
+        super(name, "fish");
         this.name = name;
         this.favoriteFood = favoriteFood;
+    }
+    // here, we override the sleep function
+    @Override
+    public void sleep() {
+        System.out.println(name + " hibernates for 4 months");
     }
 }
 

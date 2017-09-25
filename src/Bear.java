@@ -37,8 +37,6 @@ public class Bear extends Animal {
     // complete the Bear class here, using the completed Tiger class as an example
     public Bear(String name) {
         super(name, "fish");
-        this.name = name;
-        this.favoriteFood = favoriteFood;
     }
     // here, we override the sleep function
     @Override

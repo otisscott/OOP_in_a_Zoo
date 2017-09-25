@@ -4,7 +4,7 @@ public class Zookeeper {
     String name;
 
     public Zookeeper(String name) {
-        this.name= name;
+        this.name = name;
     }
 
     public void feedAnimals(ArrayList<Animal> animals, String food) {

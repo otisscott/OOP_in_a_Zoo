@@ -3,8 +3,6 @@ class Animal {
     String name;
 
     public Animal(String name, String favoriteFood) {
-        this.favoriteFood = favoriteFood;
-        name = name;
     }
 
     public void sleep() {

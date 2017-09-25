@@ -14,7 +14,7 @@ public class zoo {
 
     public void eat(String name, String food) {
         System.out.println(name + " eats " + food);
-        if(food == this.favoriteFood) {
+        if(food == name.favoriteFood) {
             System.out.println("YUM!!! " + name + " wants more " + food);
         }
         else {

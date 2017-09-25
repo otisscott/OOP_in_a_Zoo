@@ -1,6 +1,7 @@
 public class Giraffe extends Animal {
     public Giraffe(String name) {
         super(name, "leaves");
+        this.favoriteFood = favoriteFood;
     }
 
     @Override

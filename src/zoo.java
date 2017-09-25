@@ -7,7 +7,6 @@ public class zoo {
 
     }
 
-    String favoriteFood = "bacon";
 
     public void sleep(String name) {
         System.out.println(name + " sleeps for 8 hours");
@@ -15,11 +14,13 @@ public class zoo {
 
     public void eat(String name, String food) {
         System.out.println(name + " eats " + food);
-        if(food == favoriteFood) {
+        if(food == this.favoriteFood) {
             System.out.println("YUM!!! " + name + " wants more " + food);
         }
         else {
             sleep(name);
         }
     }
+
+
 }

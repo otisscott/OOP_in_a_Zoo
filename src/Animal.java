@@ -1,8 +1,10 @@
 class Animal {
     String favoriteFood;
     String name;
+    static int population;
 
     public Animal(String name, String favoriteFood) {
+        population += 1;
     }
 
     public void sleep() {
@@ -17,5 +19,8 @@ class Animal {
         else {
             sleep();
         }
+    }
+    public int populationCount() {
+        return population;
     }
 }

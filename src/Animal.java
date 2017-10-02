@@ -13,7 +13,7 @@ class Animal {
 
     public void eat(String food) {
         System.out.println(name + " eats " + food);
-        if(food == this.favoriteFood) {
+        if(food == favoriteFood) {
             System.out.println("YUM!!! " + name + " wants more " + food);
         }
         else {

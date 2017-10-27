@@ -4,7 +4,7 @@ class Animal {
     static int population;
 
     public Animal(String name, String favoriteFood) {
-        population += 1;
+        population += 1; this.favoriteFood = favoriteFood; this.name = name;
     }
 
     public void sleep() {

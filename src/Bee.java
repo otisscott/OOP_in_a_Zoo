@@ -2,7 +2,6 @@ public class Bee extends Animal {
 
     public Bee(String name) {
         super(name, "pollen");
-        this.favoriteFood = favoriteFood;
     }
     @Override
     public void sleep() {
